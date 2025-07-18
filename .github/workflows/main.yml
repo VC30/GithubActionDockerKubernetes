@@ -18,3 +18,7 @@ jobs:
         run: java -version
       - name: maven project run
         run: mvn clean install
+      - name: docker version
+        run: |
+          docker -v
+          docker
